@@ -11,8 +11,10 @@ padding: 3px 3px;
 background-color: transparent;
 }
 
-.nav-logo img{
-width:  50px; 
+.nav-logo h1{
+font-size:  25px;
+font-weight: bold;
+color: darkblue;
 }
 
 .nav-links{
