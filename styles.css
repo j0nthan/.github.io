@@ -2,19 +2,21 @@ body{
 margin: 0;
 padding: 0;
 font-family: "Times New Roman";
-background: black;
+background: linear-gradient(to right, skyblue 0%, skyblue 10%, black 10%, black 100%);
 }
 
 .nav-bar{
 display: flex;
 padding: 3px 3px;
 background-color: transparent;
+
 }
 
 .nav-logo h1{
 font-size:  25px;
 font-weight: bold;
-color: steelblue;
+color: #1d3557;
+padding-left: 7px;
 }
 
 .nav-links{
