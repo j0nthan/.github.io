@@ -2,7 +2,9 @@ body{
 margin: 0;
 padding: 0;
 font-family: "Times New Roman";
-background: linear-gradient(to right, skyblue 0%, skyblue 22.5%, black 22.5%, black 100%);
+background: linear-gradient(
+    to right, skyblue 25.3%, skyblue 25.3%, black 0%, black 100%
+)
 }
 
 .nav-bar{
@@ -13,10 +15,11 @@ background-color: transparent;
 }
 
 .nav-logo h1{
-font-size:  25px;
+font-size:  1.8em;
 font-weight: bold;
 color: #1d3557;
-padding-left: 10px;
+padding-left: 15px;
+padding-top: 2px;
 }
 
 .nav-links{
@@ -26,7 +29,7 @@ text-align: right;
 
 .nav-links ul li{
 display: inline-block;
-padding: 1px 8px;
+padding: 12px 11px;
 }
 
 .nav-links ul a{
@@ -41,6 +44,7 @@ left: 50%;
 transform: translate(-50%,-50%);
 position: absolute;
 text-align: center;
+font-family: serif;
 }
 
 h1{
