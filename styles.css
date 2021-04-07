@@ -53,9 +53,14 @@ position: absolute;
 text-align: center;
 float: none;
 }
+
 h1{
 font-size: 55px;
 color: white;
+}
+
+.nav-logo a {
+text-decoration: none;
 }
 
 br2{
