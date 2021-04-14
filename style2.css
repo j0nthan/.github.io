@@ -76,7 +76,15 @@ border-radius: 5px 5px;
 button:hover{
 background-color: royalblue;
 }
+
 mark{
 background-color: orange;
-color: #407294;
+color: black;
+}
+
+.img-one{
+width: 500px;
+height: 420px;
+padding-top: 5%;
+padding-left: 58%;
 }
