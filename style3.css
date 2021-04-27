@@ -85,9 +85,8 @@ color: black;
 
 .img-one{
 width: 500px;
-height: 500px;
-padding-top: 5%;
-padding-left: 65%;
+height: 600px;
+margin-left: 65%;
 }
 
 .btn {
@@ -100,10 +99,10 @@ padding-left: 65%;
 	padding: 7px 15px;
 	position: fixed;
 	bottom: 20px;
-	right: 6px;
+	right: 16px;
 }
 
 .btn:hover {
-	background-color: deepskyblue;
-	color: white;
+background-color: deepskyblue;
+color: white;
 }

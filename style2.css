@@ -92,19 +92,19 @@ padding-left: 66%;
 
 
 .btn {
-	border-radius: 26.5px;
-	background-color: darkblue;
-	border: none;
-	color: white;
-	font-size: 14px;
-	line-height: 23px;
-	padding: 7px 15px;
-	position: fixed;
-	bottom: 20px;
-	right: 6px;
+border-radius: 26.5px;
+background-color: darkblue;
+border: none;
+color: white;
+font-size: 14px;
+line-height: 23px;
+padding: 7px 15px;
+position: fixed;
+bottom: 20px;
+right: 16px;
 }
 
 .btn:hover {
-	background-color: deepskyblue;
-	color: white;
+background-color: deepskyblue;
+color: white;
 }
