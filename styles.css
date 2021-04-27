@@ -71,3 +71,20 @@ color: white;
 mark{
     background-color:orange;
 }
+
+.btn {
+	border-radius: 26.5px;
+	background-color: darkblue;
+	border: none;
+	color: white;
+	font-size: 14px;
+	line-height: 23px;
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 20px;
+	right: 6px;
+}
+.btn:hover {
+	background-color: deepskyblue;
+	color: white;
+}
