@@ -1,0 +1,27 @@
+body{
+background: linear-gradient(
+ to right,#407294 27.5%, #407294 27.5%, black 0%, black 100%);
+}
+
+.main{
+width: 100%;
+padding-top: 12%;
+position: absolute;
+text-align: center;
+float: right;
+}
+
+h1{
+font-size: 55px;
+color: white;
+}
+
+
+br2{
+font-size: 15px;
+color: white;
+}
+
+mark{
+background-color:orange;
+}

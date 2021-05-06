@@ -2,11 +2,9 @@ body{
 margin: 0;
 padding: 0;
 font-family: "Times New Roman";
-background: linear-gradient(
- to right,#407294 93.5%, #407294 93.5%, black 0%, black 100%);
 overflow: hidden;
 min-width: 1100px;
-min-height: 800px;
+min-height: 400px;
 }
 
 .nav-bar{
@@ -31,6 +29,16 @@ flex: 1;
 text-align: right;
 }
 
+.main{
+width: 100%;
+padding-top: 10%;
+position: absolute;
+text-align: left;
+float: none;
+padding-left: 4%;
+color: white;
+}
+
 .nav-links ul li{
 display: inline-block;
 padding: 5px 9px;
@@ -47,48 +55,10 @@ background-color: transparent;
 color: lightgray;
 }
 
-.main{
-width: 100%;
-padding-top: 10%;
-position: absolute;
-text-align: left;
-float: none;
-padding-left: 4%;
-color: white;
-}
-
-h1{
-font-size: 55px;
-color: white;
-}
-
 .nav-logo a {
 text-decoration: none;
 }
 
-button {
-background-color: midnightblue;
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 5px 5px;
-}
-
-button:hover{
-background-color: royalblue;
-}
-
-mark{
-background-color: orange;
-color: black;
-}
-
-.img-one{
-width: 700px;
-height: 450px;
-padding-top: 5%;
-padding-left: 53%;
-}
 
 .btn {
 border-radius: 26.5px;
@@ -102,7 +72,6 @@ position: fixed;
 bottom: 20px;
 right: 16px;
 }
-
 .btn:hover {
 background-color: deepskyblue;
 color: white;
