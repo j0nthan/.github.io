@@ -153,17 +153,19 @@ padding-left: 53%;
 }
 
 .img-two{
-width: 700px;
-height: 450px;
+width: 300px;
+height: 400px;
 padding-top: 5%;
-padding-left: 53%;
+padding-left: 60%;
+float: right;
 }
 
 .img-three{
-width: 700px;
+width: 300px;
 height: 450px;
 padding-top: 5%;
 padding-left: 53%;
+float: right;
 }
 
 
