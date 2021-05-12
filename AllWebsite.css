@@ -1,3 +1,4 @@
+/*Code for  body of my whole website*/
 body{
 margin: 0;
 padding: 0;
@@ -8,44 +9,54 @@ min-height: 800px;
 background: linear-gradient(
  to right,#407294 23.5%, #407294 23.5%, black 0%, black 100%);
 }
-.nav-bar{
-display: flex;
-background-color: transparent;
-}
 
+
+/*code for my Logo on my NavBar*/
 .nav-logo h1{
 font-size:  1.7em;
 font-weight: bold;
 color: #1d3557;
 padding: 0px 10px;
 }
-
 .nav-logo h1:hover{
 background-color: transparent;
 color: lightblue;
 }
 
+
+/*Code for my NavBar on all pages*/
+.nav-bar{
+display: flex;
+background-color: transparent;
+}
+/*Keeps navbar Links on right of webpage*/
 .nav-links{
 flex: 1;
 text-align: right;
 }
-
+/*Formats NavBar Links so the are in the right postion*/
 .nav-links ul li{
 display: inline-block;
 padding: 5px 9px;
 }
-
+/*Font-size, color, and padding of my text of links on NavBar*/
 .nav-links ul a{
 font-size: 20px;
 color: white;
 padding-right: 10px;
 }
-
+/*Hover colour when user hovers over links on Navbar*/
 .nav-links ul a:hover{
 background-color: transparent;
 color: lightgray;
 }
+/*Removes line underneath links on NavBar*/
+.nav-logo a {
+text-decoration: none;
+}
 
+
+/*Main div class code for my mainpage, this is for formatting the page and the content */
 .main{
 width: 100%;
 padding-top: 10%;
@@ -56,35 +67,29 @@ padding-left: 0%;
 color: white;
 }
 
+
+/*Code for my Quote on My mainpage*/
 h1{
 font-size: 55px;
 color: white;
 }
-
-.nav-logo a {
-text-decoration: none;
-}
-
-
-h1{
-font-size: 55px;
-color: white;
-}
-
 br2{
 font-size: 15px;
 color: white;
 }
 
+
+/*Highlight for text on mainpage and heading text on all my subpages*/
 mark{
 background-color:orange;
 color: black;
 }
 
+
+/*Code for Contact Us button*/
 .btn {
 border-radius: 26.5px;
 background-color: #0077d2;
-border: none;
 color: white;
 font-size: 14px;
 line-height: 23px;
@@ -94,25 +99,24 @@ bottom: 20px;
 right: 16px;
 }
 
+
+/*Contact Us Button hover colour*/
 .btn:hover {
 background-color: darkblue;
 color: white;
 }
 
 -----------------------------------------------------------
+/*Specific code for all of my SUB-PAGES*/
 
-
+/*Body code for Index 1, 2 & 3 (all my sub-pages) this is specfic to formatting Sub-pages*/
 body1{
-background: linear-gradient(
- to right,#407294 93.5%, #407294 93.5%, black 0%, black 100%);
 margin: 0;
 padding: 0;
-font-family: "Times New Roman";
-overflow: hidden;
-min-width: 1100px;
-min-height: 800px;
 }
 
+
+/*Main div class code for Index 1, 2 & 3, this is for formatting the page and the content */
 .main1{
 width: 100%;
 padding-top: 10%;
@@ -123,11 +127,16 @@ padding-left: 4%;
 color: white;
 }
 
+
+
+/*For heading on Index 1, 2 & 3 (all my subpages)*/
 h2{
 font-size: 55px;
 color: white;
 }
 
+
+/*Code for Learn More Button on all subpages*/
 button {
 background-color: midnightblue;
 color: white;
@@ -136,15 +145,14 @@ border: none;
 border-radius: 5px 5px;
 }
 
+
+/*Hover colour for Learn More*/
 button:hover{
 background-color: royalblue;
 }
 
-mark1{
-background-color: orange;
-color: black;
-}
 
+/*Image On About sub-page*/
 .img-one{
 width: 430px;
 height: 300px;
@@ -153,6 +161,8 @@ padding-left: 60%;
 float: right;
 }
 
+
+/*Image on Benefits sub-page */
 .img-two{
 width: 300px;
 height: 400px;
@@ -161,6 +171,8 @@ padding-left: 60%;
 float: right;
 }
 
+
+/*Image on Tips sub-page*/
 .img-three{
 width: 300px;
 height: 450px;
@@ -168,73 +180,3 @@ padding-top: 5%;
 padding-left: 53%;
 float: right;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
