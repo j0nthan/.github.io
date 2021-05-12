@@ -15,12 +15,12 @@ background: linear-gradient(
 .nav-logo h1{
 font-size:  1.7em;
 font-weight: bold;
-color: #1d3557;
+color: #023047;
 padding: 0px 10px;
 }
 .nav-logo h1:hover{
 background-color: transparent;
-color: lightblue;
+color: #1d215e;
 }
 
 
@@ -102,7 +102,7 @@ right: 16px;
 
 /*Contact Us Button hover colour*/
 .btn:hover {
-background-color: darkblue;
+background-color: #0096c7;
 color: white;
 }
 
